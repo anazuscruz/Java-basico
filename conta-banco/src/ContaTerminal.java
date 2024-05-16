@@ -12,10 +12,10 @@ public class ContaTerminal {
 
 		System.out.println("---------------CONTA BANCÁRIA---------------");
 		System.out.println();
-		System.out.println("Por favor, digite o número da Conta: (1234)");
+		System.out.println("Por favor, digite o número da Conta: (com 6 digitos)");
 		numero = sc.nextInt();
 
-		System.out.println("Agora digite o número da Agência: (123-8)");
+		System.out.println("Agora digite o número da Agência: (com 4 digitos)");
 		agencia = sc.next();
 
 		System.out.println("Me informe seu nome: ");
